@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">login</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="buscador">
+
+        <item>.....</item>
+        <item>Altas cumbres</item>
+        <item>Talca, Paris y Londres</item>
+
+
+    </string-array>
 </resources>

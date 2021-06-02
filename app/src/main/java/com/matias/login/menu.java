@@ -27,4 +27,11 @@ public class menu extends AppCompatActivity {
         startActivity(boton);
 
     }
+
+    public void localizacion(View view){
+
+        Intent boton = new Intent(menu.this, Mapa.class);
+        startActivity(boton);
+
+    }
 }

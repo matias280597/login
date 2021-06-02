@@ -23,5 +23,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Horas Altas cumbres" />
+
+        <Button
+            android:id="@+id/buttonb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="localizacion"
+            android:text="BUSCAR LOCALIZACION" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -109,8 +109,7 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="validar"
-            android:text="CONFIRMACION DE REGISTRO" />
+            android:text="insertar" />
 
         <Button
             android:id="@+id/button2"
@@ -118,6 +117,13 @@
             android:layout_height="wrap_content"
             android:onClick="regresar"
             android:text="Volver" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="mostrar"
+            android:text="mostrar registros " />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
